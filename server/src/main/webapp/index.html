@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>全通微头条</title>
+    <style media="screen">
+      body {
+        margin: 0;
+        text-align: center;
+      }
+      .clearfix:before,
+      .clearfix {
+        *zoom: 1;
+      }
+      .clearfix:after {
+        display: table;
+        line-height: 0;
+        content: "";
+      }
+      .clearfix:after {
+        clear: both;
+      }
+      .header {
+        background-color: #2d8cf0;
+        height: 60px;
+        color: #fff;
+        text-align: center;
+        line-height: 60px;
+      }
+      .main {
+        padding: 20px 0 20px;
+      }
+      .left,.right {
+        width: 50%;
+        text-align: center;
+      }
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+      }
+      .ios,.android {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .ios {
+        background-image: url('./img/ios.png');
+        margin-bottom: 6px;
+      }
+      .android {
+        width: 86px;
+        height: 86px;
+        margin-bottom: 10px;
+        background-image: url('./img/and.png');
+      }
+      .btn {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      全通微头条客户端下载
+    </header>
+    <div class="main clearfix">
+      <div class="left">
+        <div class="ios"></div>
+        <img width="100" src="./img/download.png" alt="">
+      </div>
+      <div class="right">
+        <div class="android"></div>
+        <img width="100" src="./img/download.png" alt="">
+      </div>
+    </div>
+    <img width="80%" src="./img/desc.png" alt="">
+  </body>
+</html>

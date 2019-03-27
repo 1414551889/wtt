@@ -1,0 +1,40 @@
+em,i{
+  font-style: normal;
+}
+b,strong{font-weight: 200}
+textarea {
+  resize: none;
+}
+html,body {
+  height: 100%;
+}
+.ellipsis{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.clearfix:before,
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left{
+  float: left !important;
+}
+.pull-right{
+  float: right !important;
+}
+
+.ui-toolbar {
+  margin-bottom: 20px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
